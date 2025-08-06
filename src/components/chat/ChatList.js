@@ -2,6 +2,7 @@ import { useState, useContext, useEffect } from 'react';
 import { Search, Plus } from 'lucide-react';
 import ChatContext from '../../context/ChatContext';
 import AuthContext from '../../context/AuthContext';
+import { Search, Plus, Users } from 'lucide-react';
 
 const ChatList = ({ onNewChat }) => {
   const { chats, selectedChat, setSelectedChat, getChats } = useContext(ChatContext);
